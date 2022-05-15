@@ -26,14 +26,14 @@ Plot the images of the original one and the filtered one using plt.figure() and 
 
 ## Program:
 ~~~
-Developed By   : H.Syed Abdul Wasih
-Register Number: 212221240057
+Developed By   : Vishal Gowthaman KR
+Register Number: 212221230123
 ~~~
 ~~~
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image=cv2.imread('bike.jpg')
+image=cv2.imread('image.jpg')
 image2=cv2.cvtColor (image1, cv2.COLOR_BGR2RGB)
 ~~~
 ## 1. Smoothing Filters :
@@ -124,18 +124,18 @@ plt.axis("off")
 ## Output:
 ### Smoothing Filters:
 #### i)  Using Averaging Filter:
-![output](./img/1.png)
+![output](1.png)
 #### ii) Using Weighted Average Filter:
-![output](./img/2.png)
+![output](2.png)
 #### iii) Using Gaussian Filter:
-![output](./img/3.png)
+![output](3.png)
 #### iv) Using Median Filter:
-![output](./img/4.png)
+![output](4.png)
 ### Sharpening Filters:
 #### i) Using Laplacian Kernel:
-![output](./img/5.png)
+![output](5.png)
 #### ii) Using Laplacian Operator:
-![output](./img/6.png)
+![output](6.png)
 
 
 ## Result:
